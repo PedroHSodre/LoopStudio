@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: 'Alata', 'Josefin sans', sans-serif;
 }
 
 ul, li, ol {
@@ -38,7 +45,37 @@ ul, li, ol {
 .hamburger {
     display: none;
 }
+
+.nav-menu {
+
+}
+
+.header-container {
+    color: white;
+    border: solid 2px white;
+    width: max-content;
+    padding: .6em 1.2em;
+    font-size: 2.5em;
+    margin: 1em auto;
+}
+
+.header-container p {
+    font-family: 'Josefin sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.container-2_imgs-mobile {
+    display: none;
+}
+
+.footer {
+    background: black;
+}
 @media screen and (max-width: 740px) {
+    .main, .header {
+        overflow: hidden;
+    }
+
     .header {
         background-image: url("/assets/img/mobile/image-hero.jpg");
         background-size: cover;
@@ -56,10 +93,133 @@ ul, li, ol {
     }
 
     .hamburger img {
-        margin: 1.30em 3em;
+        margin: 1.30em 2em;
     }
 
     .nav-menu {
-        transform: translateX(15em);
+        transform: translateX(20em);
+    }
+
+    
+    .main-container_1 {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .main-container_1 div img {
+        margin-top: 3.5em;
+        width: 24em;
+    }
+
+    .main-container_1 div:nth-child(2) {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-container_1 div:nth-child(2) h3 {
+        margin: 1.5em 0 0 0;
+        font-family: 'Josefin sans', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 1.8em;
+    }
+
+    .main-container_1 div:nth-child(2) p {
+        margin: 1em auto;
+        width: 60%;
+        font-family: 'Josefin sans', sans-serif;
+        line-height: 1.3em;
+    }
+
+    .main-container_2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main-container_2 h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 2em;
+        font-family: 'Josefin sans', sans-serif;
+        padding: 1em;
+    }
+
+    .main-container_2 div {
+    }
+
+    .main-container_2 img {
+        width: 100%;
+        margin-top: 1.5em;
+        filter: brightness(70%);
+    }
+
+    .container-2_imgs-mobile {
+        display: block;
+    }
+
+    .container-2_imgs-mobile div {
+        position: relative;
+    }
+
+    .container-2_imgs-mobile span {
+        position: absolute;
+        color: white;
+        font-family: 'Josefin sans', sans-serif;
+        font-size: 1.5em;
+        bottom: .4em;
+        left: -.5em;
+        z-index: 2;
+        padding: 1em;
+    }
+
+    .main-button {
+        border: solid 2px black;
+        width: 10em;
+        margin: 2em auto;
+        text-align: center;
+        padding: .5em 1em;
+    }
+
+    .main-button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer div {
+        width: max-content;
+        margin: auto;
+    }
+
+    .footer div img {
+        margin-top: 1em;
+    }
+
+    .footer-logo {
+        padding-top: 3em;
+    }
+    .footer div ul {
+        margin-top: 3-mobileem;
+    }
+
+    .footer div ul li {
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .footer-icons ul li{
+        display: inline-block;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .footer-copy {
+        color: white;
+    }
+
+    .footer-copy a {
+        color: rgba(255, 99, 71, 0.748);
+        text-decoration: none;
     }
 }
