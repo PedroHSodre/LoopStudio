@@ -337,7 +337,7 @@ ul, li, ol {
     .main-button {
         border: solid 2px black;
         width: 10em;
-        margin: 3em 8em;
+        margin: 3em 8.5em;
         text-align: center;
         padding: .5em 1em;
         position: relative;
@@ -370,7 +370,7 @@ ul, li, ol {
 
     .footer  ul li {
         display: block;
-        margin: 1em 7em;
+        margin: 1em 5.5em;
         text-align: center;
     }
 
