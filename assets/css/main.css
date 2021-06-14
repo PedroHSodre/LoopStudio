@@ -258,7 +258,8 @@ ul, li, ol {
     }
 
     .main-container_1 div{
-        margin-left: .7em;
+        width: 100%;
+        margin: auto;
     }
 
     .main-container_1 div img {
@@ -267,7 +268,7 @@ ul, li, ol {
     }
 
     .main-container_1 div:nth-child(2) {
-        width: 90%;
+        width: 95%;
         margin: auto;
         text-align: center;
         position: relative;
@@ -284,8 +285,8 @@ ul, li, ol {
     }
 
     .main-container_1 div:nth-child(2) p {
-        margin: 1em auto;
-        width: 80%;
+        margin: 1em auto 2em auto;
+        width: 90%;
         font-family: 'Josefin sans', sans-serif;
         line-height: 1.3em;
     }
@@ -370,7 +371,7 @@ ul, li, ol {
 
     .footer  ul li {
         display: block;
-        margin: 1em 5.5em;
+        margin: 1em 4em;
         text-align: center;
     }
 
